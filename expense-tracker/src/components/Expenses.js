@@ -3,6 +3,7 @@ import Card from "./common/Card";
 import './styles/Expenses.css';
 import ExpenseFilter from "./ExpenseFilter";
 import ExpenseList from './ExpenseList';
+import ExpenseChart from './ExpenseChart';
 
 export default function Expenses({expenses, incomingClassName}) {
     const classes = 'expenses ' + incomingClassName;
@@ -16,6 +17,7 @@ export default function Expenses({expenses, incomingClassName}) {
         <div>
             <Card className={classes}>
                 <ExpenseFilter onChangeFilter={filterChangeHandler} currentFilter={filteredYear} />
+                <ExpenseChart expenses={filteredExpenses} />
                 <ExpenseList expenses={filteredExpenses} />
             </Card>
         </div>

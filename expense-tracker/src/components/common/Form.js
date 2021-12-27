@@ -28,7 +28,7 @@ export default function Form({buttonText,onSaveExpenseForm, onHideForm}) {
         const userData = {
             title,
             date: new Date(date),
-            amount,
+            amount: +amount,
         };
         onSaveExpenseForm(userData);
         resetFormHandler();
