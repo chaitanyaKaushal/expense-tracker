@@ -49,6 +49,7 @@ export default function Form({buttonText,onSaveExpenseForm, onHideForm}) {
                         type='text'
                         onChange={titleChangeHandler}
                         value={title}
+                        required
                     />
                 </div>
                 <div className="form__control">
@@ -58,6 +59,7 @@ export default function Form({buttonText,onSaveExpenseForm, onHideForm}) {
                         type='number'
                         min="0.01" step="0.01"
                         onChange={amountChangeHandler}
+                        required
                     />
                 </div>
                 <div className="form__control">
@@ -67,6 +69,7 @@ export default function Form({buttonText,onSaveExpenseForm, onHideForm}) {
                         type='date'
                         min="2019-01-01" max="2022-12-31"
                         onChange={dateChangeHandler}
+                        required
                     />
                 </div>
             </div>
