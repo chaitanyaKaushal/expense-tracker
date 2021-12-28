@@ -3,6 +3,7 @@ This is a tracker to track yearly expenses on items purchased. The classificatio
 The UI is dark-themed and pleasing to the eyes.
 # UI
 ![expenseTrackerWidget](https://user-images.githubusercontent.com/45959894/147544236-85f07b66-2f06-4609-9ddf-5348fc0a0eb0.png)
+# Add Expense Form
 ![expenseTrackerForm](https://user-images.githubusercontent.com/45959894/147544255-680a910d-e957-47b4-a97d-f74fbe19d4f0.png)
 
 # Getting Started with Create React App
