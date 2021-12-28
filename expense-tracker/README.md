@@ -1,7 +1,9 @@
 # Expense Tracker Widget
 This is a tracker to track yearly expenses on items purchased. The classification is done monthly with beautiful charts and filtered yearly using dropdowns.
 The UI is dark-themed and pleasing to the eyes.
-![expenseTrackerWidget](https://user-images.githubusercontent.com/45959894/147543701-6827c52b-d59f-476b-a0cc-974555b9df6f.png)
+# UI
+![expenseTrackerWidget](https://user-images.githubusercontent.com/45959894/147544236-85f07b66-2f06-4609-9ddf-5348fc0a0eb0.png)
+![expenseTrackerForm](https://user-images.githubusercontent.com/45959894/147544255-680a910d-e957-47b4-a97d-f74fbe19d4f0.png)
 
 # Getting Started with Create React App
 
